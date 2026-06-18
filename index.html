@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pahlevy Zaqi Shah — CV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ─── Navigation ─────────────────────────────────────────── -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <span class="nav-logo"><span class="accent">&lt;</span>PZS<span class="accent">/&gt;</span></span>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#education">Pendidikan</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ─── Hero ───────────────────────────────────────────────── -->
+  <section class="hero" id="hero">
+    <div class="hero-grid-bg"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-content">
+      <div class="hero-badge reveal">
+        <span class="badge-dot"></span>
+        <span class="mono">Available for opportunities</span>
+      </div>
+      <h1 class="hero-name reveal">
+        Pahlevy<br /><span class="name-accent">Zaqi Shah</span>
+      </h1>
+      <p class="hero-desc reveal">
+        Mahasiswa & IT Enthusiast yang memiliki minat pada bidang
+        <span class="tag">Networking</span>
+        <span class="tag">DevOps</span>
+        <span class="tag">Cloud Computing</span>
+        &amp; <span class="tag">Software Development</span>
+      </p>
+      <div class="hero-cta reveal">
+        <a href="#" class="btn btn-primary" id="downloadBtn">
+          <i class="fa-solid fa-download"></i> Download CV
+        </a>
+        <a href="#contact" class="btn btn-outline">
+          <i class="fa-solid fa-paper-plane"></i> Contact Me
+        </a>
+      </div>
+    </div>
+    <div class="hero-code reveal">
+      <div class="code-window">
+        <div class="code-titlebar">
+          <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+          <span class="code-filename mono">profile.json</span>
+        </div>
+        <pre class="code-body mono"><span class="c-brace">{</span>
+  <span class="c-key">"name"</span><span class="c-sym">:</span> <span class="c-str">"Pahlevy Zaqi Shah"</span>,
+  <span class="c-key">"role"</span><span class="c-sym">:</span> <span class="c-str">"IT Enthusiast"</span>,
+  <span class="c-key">"location"</span><span class="c-sym">:</span> <span class="c-str">"Jakarta, ID"</span>,
+  <span class="c-key">"focus"</span><span class="c-sym">:</span> <span class="c-arr">[</span>
+    <span class="c-str">"Networking"</span>,
+    <span class="c-str">"DevOps"</span>,
+    <span class="c-str">"Cloud Computing"</span>
+  <span class="c-arr">]</span>,
+  <span class="c-key">"status"</span><span class="c-sym">:</span> <span class="c-str">"open_to_work"</span>
+<span class="c-brace">}</span></pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── About / Personal Info ─────────────────────────────── -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label mono">01 &mdash; Tentang Saya</span>
+        <h2 class="section-title">Informasi <span class="accent">Pribadi</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="info-card reveal">
+          <div class="info-row">
+            <div class="info-icon"><i class="fa-solid fa-user"></i></div>
+            <div class="info-content">
+              <span class="info-label">Nama Lengkap</span>
+              <span class="info-value">Pahlevy Zaqi Shah</span>
+            </div>
+          </div>
+          <div class="info-row">
+            <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div class="info-content">
+              <span class="info-label">Tempat Tinggal</span>
+              <span class="info-value">Jakarta, Indonesia</span>
+            </div>
+          </div>
+          <div class="info-row">
+            <div class="info-icon"><i class="fa-solid fa-cake-candles"></i></div>
+            <div class="info-content">
+              <span class="info-label">Tanggal Lahir</span>
+              <span class="info-value">03 Februari 2004</span>
+            </div>
+          </div>
+          <div class="info-row">
+            <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+            <div class="info-content">
+              <span class="info-label">Nomor Telepon</span>
+              <span class="info-value mono">+62 812-1025-3972</span>
+            </div>
+          </div>
+          <div class="info-row">
+            <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div class="info-content">
+              <span class="info-label">Email</span>
+              <span class="info-value mono">pahlevizaqi020@gmail.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-bio reveal">
+          <p>
+            Halo! Saya adalah seorang mahasiswa yang memiliki semangat besar terhadap dunia teknologi informasi. Dengan minat yang mendalam pada <strong>Networking</strong>, <strong>DevOps</strong>, dan <strong>Cloud Computing</strong>, saya terus belajar dan mengembangkan keterampilan untuk menjadi seorang profesional IT yang handal.
+          </p>
+          <p>
+            Saya percaya bahwa teknologi memiliki kekuatan untuk mengubah dunia, dan saya berkomitmen untuk menjadi bagian dari perubahan itu melalui kerja keras, kolaborasi, dan inovasi tanpa henti.
+          </p>
+          <div class="stat-row">
+            <div class="stat-box">
+              <span class="stat-num accent">2+</span>
+              <span class="stat-label">Tahun Belajar</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-num accent">12+</span>
+              <span class="stat-label">Skill Teknis</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-num accent">4</span>
+              <span class="stat-label">Jenjang Pendidikan</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Education Timeline ─────────────────────────────────── -->
+  <section class="section section-alt" id="education">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label mono">02 &mdash; Riwayat Pendidikan</span>
+        <h2 class="section-title">Perjalanan <span class="accent">Pendidikan</span></h2>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline-item reveal" data-side="left">
+          <div class="timeline-dot">
+            <i class="fa-solid fa-school"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-badge">SD</div>
+            <h3 class="timeline-school">[Nama Sekolah Dasar]</h3>
+            <p class="timeline-desc">Sekolah Dasar</p>
+            <div class="timeline-meta">
+              <span class="timeline-year mono"><i class="fa-regular fa-calendar"></i> [Tahun Masuk] &mdash; [Tahun Lulus]</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal" data-side="right">
+          <div class="timeline-dot">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-badge">SMP</div>
+            <h3 class="timeline-school">[Nama Sekolah Menengah Pertama]</h3>
+            <p class="timeline-desc">Sekolah Menengah Pertama</p>
+            <div class="timeline-meta">
+              <span class="timeline-year mono"><i class="fa-regular fa-calendar"></i> [Tahun Masuk] &mdash; [Tahun Lulus]</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal" data-side="left">
+          <div class="timeline-dot">
+            <i class="fa-solid fa-laptop-code"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-badge">SMA/SMK</div>
+            <h3 class="timeline-school">[Nama Sekolah Menengah Atas/Kejuruan]</h3>
+            <p class="timeline-desc">Sekolah Menengah Atas / Kejuruan</p>
+            <div class="timeline-meta">
+              <span class="timeline-year mono"><i class="fa-regular fa-calendar"></i> [Tahun Masuk] &mdash; [Tahun Lulus]</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal" data-side="right">
+          <div class="timeline-dot active">
+            <i class="fa-solid fa-university"></i>
+          </div>
+          <div class="timeline-card timeline-card-active">
+            <div class="timeline-badge badge-active">Aktif</div>
+            <h3 class="timeline-school">[Nama Perguruan Tinggi]</h3>
+            <p class="timeline-desc">Perguruan Tinggi &mdash; Ilmu Komputer / Teknik Informatika</p>
+            <div class="timeline-meta">
+              <span class="timeline-year mono"><i class="fa-regular fa-calendar"></i> [Tahun Masuk] &mdash; Sekarang</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Skills ─────────────────────────────────────────────── -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label mono">03 &mdash; Keahlian</span>
+        <h2 class="section-title">Technical <span class="accent">Skills</span></h2>
+      </div>
+
+      <div class="skills-wrapper">
+        <div class="skills-col reveal">
+          <h3 class="skills-category"><i class="fa-solid fa-network-wired"></i> Infrastruktur & Sistem</h3>
+          <div class="skill-item" data-level="85">
+            <div class="skill-header">
+              <span class="skill-name">Networking</span>
+              <span class="skill-pct mono">85%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill"></div></div>
+          </div>
+          <div class="skill-item" data-level="75">
+            <div class="skill-header">
+              <span class="skill-name">Linux Administration</span>
+              <span class="skill-pct mono">75%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill"></div></div>
+          </div>
+          <div class="skill-item" data-level="70">
+            <div class="skill-header">
+              <span class="skill-name">DevOps</span>
+              <span class="skill-pct mono">70%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill"></div></div>
+          </div>
+          <div class="skill-item" data-level="72">
+            <div class="skill-header">
+              <span class="skill-name">Cloud Computing</span>
+              <span class="skill-pct mono">72%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill"></div></div>
+          </div>
+        </div>
+
+        <div class="skills-col reveal">
+          <h3 class="skills-category"><i class="fa-solid fa-code"></i> Web Development</h3>
+          <div class="skill-item" data-level="88">
+            <div class="skill-header">
+              <span class="skill-name">HTML</span>
+              <span class="skill-pct mono">88%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill"></div></div>
+          </div>
+          <div class="skill-item" data-level="82">
+            <div class="skill-header">
+              <span class="skill-name">CSS</span>
+              <span class="skill-pct mono">82%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill"></div></div>
+          </div>
+          <div class="skill-item" data-level="78">
+            <div class="skill-header">
+              <span class="skill-name">JavaScript</span>
+              <span class="skill-pct mono">78%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill"></div></div>
+          </div>
+          <div class="skill-item" data-level="65">
+            <div class="skill-header">
+              <span class="skill-name">Node.js</span>
+              <span class="skill-pct mono">65%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill"></div></div>
+          </div>
+          <div class="skill-item" data-level="60">
+            <div class="skill-header">
+              <span class="skill-name">React</span>
+              <span class="skill-pct mono">60%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill"></div></div>
+          </div>
+        </div>
+
+        <div class="skills-col reveal">
+          <h3 class="skills-category"><i class="fa-solid fa-people-group"></i> Soft Skills</h3>
+          <div class="soft-skills-grid">
+            <div class="soft-badge">
+              <i class="fa-solid fa-lightbulb"></i>
+              <span>Problem Solving</span>
+            </div>
+            <div class="soft-badge">
+              <i class="fa-solid fa-users"></i>
+              <span>Teamwork</span>
+            </div>
+            <div class="soft-badge">
+              <i class="fa-solid fa-comments"></i>
+              <span>Communication</span>
+            </div>
+            <div class="soft-badge">
+              <i class="fa-solid fa-brain"></i>
+              <span>Critical Thinking</span>
+            </div>
+            <div class="soft-badge">
+              <i class="fa-solid fa-clock-rotate-left"></i>
+              <span>Time Management</span>
+            </div>
+            <div class="soft-badge">
+              <i class="fa-solid fa-arrows-rotate"></i>
+              <span>Adaptability</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Contact ────────────────────────────────────────────── -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label mono">04 &mdash; Hubungi Saya</span>
+        <h2 class="section-title">Let's <span class="accent">Connect</span></h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <p class="contact-desc">
+            Tertarik untuk berkolaborasi atau ingin mengetahui lebih lanjut tentang saya? Jangan ragu untuk menghubungi saya melalui informasi di bawah ini.
+          </p>
+          <div class="contact-links">
+            <a href="tel:+6281210253972" class="contact-link">
+              <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+              <div>
+                <span class="cl-label">Telepon</span>
+                <span class="cl-value mono">+62 812-1025-3972</span>
+              </div>
+            </a>
+            <a href="mailto:pahlevizaqi020@gmail.com" class="contact-link">
+              <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div>
+                <span class="cl-label">Email</span>
+                <span class="cl-value mono">pahlevizaqi020@gmail.com</span>
+              </div>
+            </a>
+            <div class="contact-link">
+              <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div>
+                <span class="cl-label">Lokasi</span>
+                <span class="cl-value">Jakarta, Indonesia</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-wrap reveal">
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <label for="name">Nama</label>
+              <input type="text" id="name" placeholder="Nama Anda" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="email@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Pesan</label>
+              <textarea id="message" rows="5" placeholder="Tulis pesan Anda di sini..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary full-width">
+              <i class="fa-solid fa-paper-plane"></i> Kirim Pesan
+            </button>
+            <div class="form-success" id="formSuccess">
+              <i class="fa-solid fa-circle-check"></i> Pesan berhasil dikirim!
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Footer ─────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="nav-logo"><span class="accent">&lt;</span>PZS<span class="accent">/&gt;</span></span>
+      <p class="footer-copy mono">© 2024 Pahlevy Zaqi Shah. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="mailto:pahlevizaqi020@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="tel:+6281210253972" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
